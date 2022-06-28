@@ -1,0 +1,5 @@
+.form {
+  width: 700px;
+  background-color: gray;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 300px, rgba(255,255,255,.5) 300px, rgba(255,255,255,.5) 600px);
+}
