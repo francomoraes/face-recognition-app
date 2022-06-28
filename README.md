@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# ZTM Academy - Face Recognition App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is part of the course at [The Complete Web Developer in 2022](https://zerotomastery.io/courses/coding-bootcamp/). The course goes through HTML, CSS, JavaScript, Node.js, Machine Learning, and much more.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [ZTM Academy - Face Recognition App](#ztm-academy---face-recognition-app)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The app](#the-app)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned x Continued Development](#what-i-learned-x-continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The app
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Navigate throught Sign In, Register, Sign Out (the funcions are not implemented yet, although the buttons are working)
+- Paste a link for a picture with a face, and the app will highlight where the face is.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./public/screenshot1.png" width=600)/>
+<img src="./public/screenshot2.png" width=600)/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL (work in progress): [Face Recognition App](https://francomoraes.github.io/face-recognition-app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## My process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Clarifai](https://www.clarifai.com/) - A.I. library
+- [Particles-js](https://www.npmjs.com/package/react-particles-js) - Styles library
+- [React-tilt](https://www.npmjs.com/package/react-tilt) - Styles library
+- [Tachyons](https://tachyons.io/) - CSS Tollkit - Open source component library
 
-## Learn More
+### What I learned x Continued Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The projetct was perfect to learn that there are tremendous amounts of code already set and ready for us to catch, customize and use in our own projects. The Tachyons library, for example, makes it very fast and simple to implement styles in any project; the tilt and particles libraries really make an impression with very little effort; and the Clarifai API that gives us the opportunity to play with A.I. and add it to our projects. Reallt fantastic.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Next steps:
+- Add login/register features
+- Add backend connections
+- Add recognition to more than one face at the same image
 
-### Code Splitting
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A guide to flexbox is a constant visit. There's always something to improve on this matter.
+- [Clarifai](https://www.clarifai.com/) - A.I. library
+- [Particles-js](https://www.npmjs.com/package/react-particles-js) - Styles library
+- [React-tilt](https://www.npmjs.com/package/react-tilt) - Styles library
+- [Tachyons](https://tachyons.io/) - CSS Tollkit - Open source component library
+- [Zero to Maestry Github](https://github.com/zero-to-mastery)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Franco Moraes <br>
+[![GitHub](https://i.stack.imgur.com/tskMh.png)]() [GitHub](https://github.com/francomoraes) <br>
+[![LinkedIn](https://i.stack.imgur.com/gVE0j.png)]() [LinkedIn](https://www.linkedin.com/in/francomoraes/)
